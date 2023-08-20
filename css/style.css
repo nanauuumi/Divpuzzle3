@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    width: 400px;
+    height: 450px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.redbox{
+    background-color: #ff0000;
+    height: 100px;
+    position: relative;
+}
+
+.purplebox1{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #a9004b;
+    width: 40px;
+    height: 40px;
+    border: 10px solid #ffffff;
+}
+
+.purplebox2{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #a9004b;
+    width: 40px;
+    height: 40px;
+    border: 10px solid #ffffff;
+    margin-right: 50px;
+}
+
+.purplebox3{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #a9004b;
+    width: 40px;
+    height: 40px;
+    border: 10px solid #ffffff;
+    margin-right: 100px;
+}
+
+.greenbox{
+    background-color: #00ff51;
+    width: 150px;
+    height: 250px;
+    float: left;
+}
+
+.brownbox{
+    background-color: #8c2727;
+    width: 250px;
+    height: 250px;
+    float: left;
+    position: relative;
+}
+
+.orangebox1{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-color: #ff863f;
+    width: 140px;
+    height: 40px;
+    border: 5px solid #ffffff;
+}
+
+.orangebox2{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-color: #ff863f;
+    width: 140px;
+    height: 40px;
+    border: 5px solid #ffffff;
+    margin-top: 55px;
+}
+
+.orangebox3{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-color: #ff863f;
+    width: 140px;
+    height: 40px;
+    border: 5px solid #ffffff;
+    margin-top: 110px;
+}
+
+
+.yellowbox{
+    background-color: #ffd000;
+    height: 100px;
+}
