@@ -19,8 +19,8 @@ body {
 
 .absolute{
   position: absolute;
+  padding: 20px;
   right: 20px;
-  top: 20px;
 }
 
 .purplebox{
@@ -57,6 +57,10 @@ body {
   height: 40px;
   border: 5px solid #ffffff;
   margin-bottom: 10px;
+}
+
+.orangebox:last-child{
+  margin-bottom: none;
 }
 
 .yellowbox{
