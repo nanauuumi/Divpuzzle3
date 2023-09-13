@@ -14,12 +14,15 @@ body {
 .redbox{
   background-color: #ff0000;
   height: 100px;
-  position: relative;
+  position: relative
 }
 
 .absolute{
   position: absolute;
-  padding: 20px;
+  right: 0;
+  padding: 5px;
+  background-color:#ffffff;
+  top: 20px;
   right: 20px;
 }
 
@@ -27,8 +30,8 @@ body {
   background-color: #a9004b;
   width: 40px;
   height: 40px;
-  border: 10px solid #ffffff;
   float: left;
+  margin: 5px;
 }
 
 .greenbox{
@@ -51,6 +54,7 @@ body {
   left: 40px;
   top: 40px;
 }
+
 .orangebox{
   background-color: #ff863f;
   width: 140px;
@@ -59,8 +63,8 @@ body {
   margin-bottom: 10px;
 }
 
-.orangebox:last-child{
-  margin-bottom: none;
+.absolute2 :last-child{
+  margin-bottom: 0;
 }
 
 .yellowbox{
