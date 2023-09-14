@@ -19,8 +19,7 @@ body {
 
 .absolute{
   position: absolute;
-  right: 0;
-  padding: 5px;
+  padding: 10px;
   background-color:#ffffff;
   top: 20px;
   right: 20px;
@@ -31,7 +30,11 @@ body {
   width: 40px;
   height: 40px;
   float: left;
-  margin: 5px;
+  margin: 0 10px 0 0;
+}
+
+.absolute :last-child{
+  margin: 0;
 }
 
 .greenbox{
